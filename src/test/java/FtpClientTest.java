@@ -6,7 +6,6 @@ import org.testng.annotations.Test;
 import ru.yankovyaroslav.ftp.client.FTPClient;
 
 import java.io.*;
-import java.net.UnknownHostException;
 import java.nio.file.NoSuchFileException;
 
 import static org.testng.Assert.*;

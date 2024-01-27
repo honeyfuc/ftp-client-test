@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ftp-client Test-Suite" >
+    <test name="FTP Client test" >
+        <classes>
+            <class name="FtpClientTest" />
+        </classes>
+    </test>
+    <test name="Student Service test" >
+        <classes>
+            <class name="StudentServiceTest" />
+        </classes>
+    </test>
+</suite>
