@@ -3,9 +3,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
 import ru.yankovyaroslav.ftp.client.FTPClient;
 import ru.yankovyaroslav.ftp.service.StudentService;
-
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
@@ -16,7 +16,6 @@ import static org.testng.Assert.*;
 public class StudentServiceTest {
 
     private FTPClient ftpClient;
-
     private StudentService studentService;
 
     @BeforeMethod()
